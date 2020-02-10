@@ -1,12 +1,12 @@
 provider "google" {
-  credentials = file("gcptask-256312-3eebb97a033e")
+  credentials = file("gcptask-256312-3eebb97a033e.json")
   project     = var.project
   region      = var.region
   zone        = var.zone
 }
 
 
-resource "google_compute_instance" "appserver" {
+resource "google_compute_instance" "dockerserver" {
   name         = var.servername
   machine_type = var.mtype
   tags         = ["http-server", "https-server"]

@@ -18,9 +18,7 @@ variable "default_network" {
 }
 
 variable "image" {
-  default = {
-    "us-central1" = "centos-7-v20191014"
-      }
+  default = "centos-7-v20191014"
 }
 
 variable "mtype" {
@@ -28,5 +26,5 @@ variable "mtype" {
 }
 
 variable "servername" {
-  default = "appserver"
+  default = "dockerserver"
 }
