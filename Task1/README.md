@@ -164,6 +164,10 @@ We can now boot the app with ```docker-compose up```:
 docker-compose up
 ```
 
+We you should see some PostgreSQL output.
+
+![](https://i.paste.pics/fafa3964b0d79f85989c7e89296d243c.png?trs=f6009fac31c07e6ac9e276bf728abce1f2845bf446fb75be32daf440558621e0)
+
 Finally, we need to create the database. In another terminal, run:
 
 ```
